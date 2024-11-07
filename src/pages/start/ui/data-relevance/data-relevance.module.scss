@@ -1,0 +1,15 @@
+.wrapper {
+  position: fixed;
+  bottom: 0;
+  // 70px - Ширина Navbar
+  left: 70px;
+
+  padding: 10px 30px;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  color: var(--color-black);
+  background-color: var(--color-blue-light);
+}

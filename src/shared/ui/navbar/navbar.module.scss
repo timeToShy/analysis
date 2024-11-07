@@ -1,0 +1,28 @@
+.navbar {
+  // 80px - Высота Header
+  padding-top: 80px;
+
+  width: 70px;
+  background-color: var(--color-dark-gray);
+
+  height: 100vh;
+
+  &Item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 70px;
+    height: 70px;
+
+    font-size: 10px;
+    line-height: 12px;
+
+    color: white;
+    cursor: pointer;
+
+    &__active {
+      background-color: var(--color-green);
+    }
+  }
+}

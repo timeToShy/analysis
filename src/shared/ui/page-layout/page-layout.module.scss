@@ -1,0 +1,7 @@
+.page {
+  position: relative;
+
+  padding: 14px 40px;
+  // 80px - Высота <Header />
+  height: calc(100vh - 80px);
+}
